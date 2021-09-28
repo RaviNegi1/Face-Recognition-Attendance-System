@@ -19,7 +19,6 @@ class Face_Recognition_System:
 
         
 
-
         img1 = Image.open(r"C:\Users\RAVI\Desktop\face-recognition-system\college_images\style.jpg")
         img1 = img1.resize((450,100), Image.ANTIALIAS)
         self.photoimg1 = ImageTk.PhotoImage(img1)
@@ -29,14 +28,12 @@ class Face_Recognition_System:
 
 
 
-
         img2 = Image.open(r"C:\Users\RAVI\Desktop\face-recognition-system\college_images\style.jpg")
         img2 = img2.resize((450,100), Image.ANTIALIAS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
 
         f_lbl = Label(self.root, image=self.photoimg2)
         f_lbl.place(x=900, y=0, width=450, height=100)
-
 
 
 
@@ -54,8 +51,6 @@ class Face_Recognition_System:
 
 
 
-
-
         #student button
 
         img4 = Image.open(r"C:\Users\RAVI\Desktop\face-recognition-system\college_images\student.jpg")
@@ -67,7 +62,6 @@ class Face_Recognition_System:
 
         b1_1 = Button(bg_img, text="Student Details", cursor="hand2", font = ("arial narrow", 12, "bold"), bg = "grey", fg = "white")
         b1_1.place(x=100, y=225, width=150, height=30)
-
 
 
 
@@ -85,7 +79,6 @@ class Face_Recognition_System:
 
 
 
-
         #Attendance button
 
         img6 = Image.open(r"C:\Users\RAVI\Desktop\face-recognition-system\college_images\attendance.png")
@@ -99,8 +92,7 @@ class Face_Recognition_System:
         b1_1.place(x=700, y=225, width=150, height=30)
 
 
-
-
+        
         #Help button
 
         img7 = Image.open(r"C:\Users\RAVI\Desktop\face-recognition-system\college_images\help.png")
@@ -112,7 +104,6 @@ class Face_Recognition_System:
 
         b1_1 = Button(bg_img, text="Help", cursor="hand2", font = ("arial", 12, "bold"), bg = "grey", fg = "white")
         b1_1.place(x=1000, y=225, width=150, height=30)
-
 
 
 
@@ -130,7 +121,6 @@ class Face_Recognition_System:
 
 
 
-
         #Photos button
 
         img9 = Image.open(r"C:\Users\RAVI\Desktop\face-recognition-system\college_images\photos.png")
@@ -142,7 +132,6 @@ class Face_Recognition_System:
 
         b1_1 = Button(bg_img, text="Photos", cursor="hand2", font = ("arial", 12, "bold"), bg = "grey", fg = "white")
         b1_1.place(x=400, y=475, width=150, height=30)
-
 
 
 
@@ -160,7 +149,6 @@ class Face_Recognition_System:
 
 
 
-
         #Exit button
 
         img11 = Image.open(r"C:\Users\RAVI\Desktop\face-recognition-system\college_images\exit.png")
@@ -172,7 +160,6 @@ class Face_Recognition_System:
 
         b1_1 = Button(bg_img, text="Exit", cursor="hand2", font = ("arial", 12, "bold"), bg = "grey", fg = "white")
         b1_1.place(x=1000, y=475, width=150, height=30)
-
 
 
 
